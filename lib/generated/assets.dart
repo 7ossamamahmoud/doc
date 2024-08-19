@@ -4,6 +4,8 @@ class Assets {
 
   static const String fontsPoppinsBold = 'assets/fonts/Poppins-Bold.ttf';
   static const String fontsPoppinsRegular = 'assets/fonts/Poppins-Regular.ttf';
+  static const String imagesOnBoardingDoc = 'assets/images/onBoarding_doc.png';
+  static const String imagesSplash = 'assets/images/splash.png';
   static const String svgsDocdocLogo = 'assets/svgs/docdoc_logo.svg';
   static const String svgsDocdocLogoLowOpacity = 'assets/svgs/docdoc_logo_low_opacity.svg';
 
