@@ -1,5 +1,3 @@
-import 'package:doc/core/helpers/extensions.dart';
-import 'package:doc/core/routing/routes.dart';
 import 'package:doc/core/theming/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -22,9 +20,7 @@ class DocDetailsTextAndGetStartedButton extends StatelessWidget {
           ),
           SizedBox(height: 30.h,),
           ElevatedButton(
-            onPressed: () {
-              context.pushNamed(Routes.loginScreen);
-            },
+            onPressed: () {},
             style: ElevatedButton.styleFrom(
               backgroundColor: ColorsManager.bluePrimaryColor,
               tapTargetSize: MaterialTapTargetSize.shrinkWrap,
