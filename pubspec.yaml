@@ -63,9 +63,9 @@ dependencies:
   fluttertoast: ^8.2.8
   # Splash
   flutter_native_splash: ^2.4.1
-  # Responsiveness
+  # Responsive
   flutter_screenutil: ^5.9.3
-  # For Rendering SVGs
+  # SVG rendering
   flutter_svg: ^2.0.10+1
 
 
