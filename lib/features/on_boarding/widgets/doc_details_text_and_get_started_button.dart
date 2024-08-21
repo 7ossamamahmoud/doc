@@ -17,7 +17,7 @@ class DocDetailsTextAndGetStartedButton extends StatelessWidget {
         children: [
           Text(
             "Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.",
-            style: TextStyles.font14GreyRegular,
+            style: TextStyles.font14GrayRegular,
             textAlign: TextAlign.center,
           ),
           SizedBox(height: 30.h,),
@@ -26,7 +26,7 @@ class DocDetailsTextAndGetStartedButton extends StatelessWidget {
               context.pushNamed(Routes.loginScreen);
             },
             style: ElevatedButton.styleFrom(
-              backgroundColor: ColorsManager.bluePrimaryColor,
+              backgroundColor: ColorsManager.mainBlue,
               tapTargetSize: MaterialTapTargetSize.shrinkWrap,
               minimumSize: const Size(double.infinity, 52),
               shape: RoundedRectangleBorder(
@@ -36,7 +36,7 @@ class DocDetailsTextAndGetStartedButton extends StatelessWidget {
             ),
             child: Text(
               "Get Started",
-              style: TextStyles.font14WhiteBold,
+              style: TextStyles.font16WhiteMedium,
             ),
           ),
         ],

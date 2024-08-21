@@ -1,3 +1,4 @@
+import 'package:doc/core/helpers/spacing.dart';
 import 'package:doc/features/on_boarding/widgets/doc_logo_and_name.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -18,9 +19,7 @@ class OnBoardingScreen extends StatelessWidget {
             child: Column(
               children: [
                 const DocLogoAndName(),
-                SizedBox(
-                  height: 30.h,
-                ),
+                verticalSpace(30),
                 const DocImageAndText(),
                 const DocDetailsTextAndGetStartedButton(),
               ],
